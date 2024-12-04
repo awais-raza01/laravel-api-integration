@@ -23,6 +23,9 @@
         <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter category name" required>
     </div>
     <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">Submit</button>
+    <div class="mt-4 text-center">
+        <a href="{{ route('category.show') }}" class="text-blue-500 hover:text-blue-700 transition duration-300">View Categories</a>
+    </div>
 </form>
 
 @endsection
